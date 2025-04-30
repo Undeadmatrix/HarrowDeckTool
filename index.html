@@ -6,9 +6,23 @@
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <h1>Pathfinder Harrow Reading</h1>
-  <div id="card-display"></div>
-  <button id="draw-card">Draw Card</button>
+  <h1>Harrow Card Reader</h1>
+
+  <div id="controls">
+    <button id="draw-three">Draw 3 Cards</button>
+    <button id="draw-nine">Draw 9 Cards (3x3)</button>
+    <div id="constellation-controls">
+      <label>Select 3 Constellations:</label>
+      <select id="constellation-select-1"></select>
+      <select id="constellation-select-2"></select>
+      <select id="constellation-select-3"></select>
+      <button id="draw-by-constellation">Draw by Constellation</button>
+    </div>
+  </div>
+
+  <div id="card-display" class="grid"></div>
+
   <script src="assets/js/app.js"></script>
 </body>
+
 </html>
