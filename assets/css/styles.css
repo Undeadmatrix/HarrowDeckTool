@@ -142,3 +142,20 @@ select {
   padding: 5px 0;
   font-size: 0.9rem;
 }
+
+#control-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+#constellation-image img {
+  max-width: 100%;
+  height: auto;
+  width: 500px; /* or adjust this to fit your design */
+  border: 2px solid var(--coyote);
+  border-radius: 8px;
+}
