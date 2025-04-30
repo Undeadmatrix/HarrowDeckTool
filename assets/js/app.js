@@ -48,7 +48,7 @@ setTimeout(() => {
 
 
 document.getElementById('draw-three').addEventListener('click', () => {
-  renderCards(drawRandomCards(3));
+  renderCards(drawRandomCards(3), true);
 });
 
 document.getElementById('draw-nine').addEventListener('click', () => {
@@ -59,7 +59,7 @@ document.getElementById('draw-by-constellation').addEventListener('click', () =>
   const c1 = document.getElementById('constellation-select-1').value;
   const c2 = document.getElementById('constellation-select-2').value;
   const c3 = document.getElementById('constellation-select-3').value;
-  renderCards(drawCardsFromConstellations([c1, c2, c3]));
+  renderCards(drawCardsFromConstellations([c1, c2, c3]), true);
 });
 
 function populateConstellationDropdowns(data) {

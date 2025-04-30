@@ -159,3 +159,29 @@ select {
   border: 2px solid var(--coyote);
   border-radius: 8px;
 }
+
+.card-label-row,
+.grid-label-row {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.card-label,
+.grid-label {
+  width: 160px;
+  text-align: center;
+  font-weight: bold;
+  color: var(--vanilla);
+}
+
+.grid-row-label {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-weight: bold;
+  text-align: center;
+  height: 260px;
+  margin-right: 8px;
+  color: var(--vanilla);
+}
