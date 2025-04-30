@@ -1,0 +1,129 @@
+body {
+  font-family: 'Garamond', serif;
+  text-align: center;
+  background-color: #f3efe9;
+}
+
+#card-display {
+  display: flex; /* Default to flex to ensure cards are centered */
+  flex-wrap: wrap; /* Allow wrapping when there are more cards */
+  justify-content: center; /* Center the cards horizontally */
+  align-items: center; /* Center the cards vertically if there's space */
+  margin-top: 20px;
+}
+
+#card-display.grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center; /* Ensure cards are centered horizontally */
+  gap: 12px;
+  padding: 15px;
+}
+
+.card-container {
+  perspective: 1000px;
+}
+
+.card {
+  width: 160px;
+  height: 260px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease, scale 0.2s ease;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card.flipped {
+  transform: rotateY(180deg) scale(1.05);
+}
+
+.card,
+.card-front,
+.card-back {
+  width: 160px;
+  height: 260px;
+  box-sizing: border-box;
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.card-front {
+  background: white;
+}
+
+.card-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-back {
+  background: #fff8f0;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.card-back h3 {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.card-back p {
+  margin: 0;
+  padding: 5px 0;
+  font-size: 0.9rem;
+}
+
+.card img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  #card-display.grid {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+/* Button container and button styles */
+#button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}

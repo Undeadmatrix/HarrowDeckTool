@@ -23,12 +23,27 @@ function renderCards(cards, grid = false) {
   const display = document.getElementById('card-display');
   display.className = grid ? 'grid' : '';
   display.innerHTML = cards.map(card => `
-    <div class="card">
-      <img src="assets/images/${card.image}" alt="${card.name}">
-      <h3>${card.name}</h3>
-      <p>${card.description}</p>
+    <div class="card-container">
+      <div class="card">
+        <div class="card-front">
+          <img src="assets/images/${card.image}" alt="${card.name}">
+        </div>
+        <div class="card-back">
+          <h3>${card.name}</h3>
+          <p>${card.description}</p>
+        </div>
+      </div>
     </div>
   `).join('');
+
+setTimeout(() => {
+  document.querySelectorAll('.card').forEach(card => {
+    card.addEventListener('click', () => {
+      card.classList.toggle('flipped');
+    });
+  });
+}, 0);
+
 }
 
 document.getElementById('draw-three').addEventListener('click', () => {
