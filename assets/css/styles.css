@@ -1,22 +1,76 @@
+:root {
+  --field-drab: #655739;
+  --coyote: #776035;
+  --vanilla: #DDCC93;
+  --savoy-blue: #5763B5;
+  --vanilla-2: #F8EDB5;
+  --smoky-black: #1D1C05;
+}
+
 body {
   font-family: 'Garamond', serif;
   text-align: center;
-  background-color: #f3efe9;
+  background-color: var(--smoky-black);
+  color: var(--vanilla-2);
+}
+
+h1 {
+  color: var(--vanilla);
+  margin-top: 20px;
+}
+
+#controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+#constellation-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: var(--savoy-blue);
+  color: var(--vanilla-2);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--field-drab);
+}
+
+select {
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid var(--coyote);
+  background-color: var(--vanilla);
+  color: var(--smoky-black);
 }
 
 #card-display {
-  display: flex; /* Default to flex to ensure cards are centered */
-  flex-wrap: wrap; /* Allow wrapping when there are more cards */
-  justify-content: center; /* Center the cards horizontally */
-  align-items: center; /* Center the cards vertically if there's space */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   margin-top: 20px;
 }
 
 #card-display.grid {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  justify-content: center; /* Ensure cards are centered horizontally */
-  gap: 12px;
+  justify-content: center;
+  gap: 16px;
   padding: 15px;
 }
 
@@ -31,9 +85,6 @@ body {
   transform-style: preserve-3d;
   transition: transform 0.6s ease, scale 0.2s ease;
   cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .card.flipped {
@@ -59,7 +110,7 @@ body {
 }
 
 .card-front {
-  background: white;
+  background: var(--vanilla-2);
 }
 
 .card-front img {
@@ -69,7 +120,8 @@ body {
 }
 
 .card-back {
-  background: #fff8f0;
+  background: var(--field-drab);
+  color: var(--vanilla-2);
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
@@ -89,41 +141,4 @@ body {
   margin: 0;
   padding: 5px 0;
   font-size: 0.9rem;
-}
-
-.card img {
-  width: 100%;
-  max-width: 150px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-@media (max-width: 600px) {
-  #card-display.grid {
-    grid-template-columns: repeat(2, auto);
-  }
-}
-
-/* Button container and button styles */
-#button-container {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-top: 20px;
-}
-
-button {
-  padding: 10px 20px;
-  font-size: 1rem;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #45a049;
 }

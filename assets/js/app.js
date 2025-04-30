@@ -46,6 +46,7 @@ setTimeout(() => {
 
 }
 
+
 document.getElementById('draw-three').addEventListener('click', () => {
   renderCards(drawRandomCards(3));
 });
