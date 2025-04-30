@@ -2,272 +2,380 @@
     {
       "name": "The Paladin",
       "description": "This is the lawful good card of strength. It represents standing resolutely against trouble, without backing down",
-      "image": "paladin.jpg"
+      "image": "the-paladin.png",
+      "ability": "Strength",
+      "constellation": "Rusian, The Weaver"
     },
     {
         "name": "The Keep",
         "description": "This is the neutral good card of strength. It represents quiet, unshakeable strength that withstands any hardship.",
-        "image": ""
+        "image": "the-keep.png",
+        "ability": "Strength",
+        "constellation": "Yelena, The Weaver"
     },
     {
         "name": "The Big Sky",
         "description": "This is the chaotic good card of strength. It represents momentous change, as when all the slaves of a nation are emancipated.",
-        "image": ""
+        "image": "the-big-sky.png",
+        "ability": "Strength",
+        "constellation": "Bombadil, The Phoenix"
     },
     {
         "name": "The Forge",
         "description": "This is the lawful neutral card of strength. It represents strength through diversity, or strength from many sources united against a single trial.",
-        "image": ""
+        "image": "the-forge.png",
+        "ability": "Strength",
+        "constellation": "Merlin, The Wand"
     },
     {
         "name": "The Bear",
         "description": "This is the neutral card of strength. It represents pure strength that cannot be truly tamed or trained.",
-        "image": ""
+        "image": "the-bear.png",
+        "ability": "Strength",
+        "constellation": "Dungeon, The Tower"
     },
     {
         "name": "The Uprising",
         "description": "This is the chaotic neutral card of strength. It represents overwhelming strength that catches the subject up in something much more powerful.",
-        "image": ""
+        "image": "the-uprising.png",
+        "ability": "Strength",
+        "constellation": "Delphi, The Ladle"
     },
     {
         "name": "The Fiend",
         "description": "This is the lawful evil card of strength. It is a devil who devours the masses of the innocent, and can represent the deaths of many in a disaster.",
-        "image": ""
+        "image": "the-fiend.png",
+        "ability": "Strength",
+        "constellation": "Canute, The Crown"
     },
     {
         "name": "The Beating",
         "description": "This is the neutral evil card of strength. It represents an assault from all quarters, or the mental dissolution of the self.",
-        "image": ""
+        "image": "the-beating.png",
+        "ability": "Strength",
+        "constellation": "Midas, The Coin"
     },
     {
         "name": "The Cyclone",
         "description": "This is the chaotic evil card of strength. It represents an unstoppable, destructive force unleashed through the plots of intelligent creatures.",
-        "image": ""
+        "image": "the-cyclone.png",
+        "ability": "Strength",
+        "constellation": "Demon, The Pit"
     },
     {
         "name": "The Dance",
         "description": "This is the lawful good card of dexterity. It represents a complicated framework that requires the cooperation of all to avoid collapse.",
-        "image": ""
+        "image": "the-dance.png",
+        "ability": "Dexterity",
+        "constellation": "Rusian, The Weaver"
     },
     {
         "name": "The Cricket",
         "description": "This is the neutral good card of dexterity. It represents the grig, quick travel, and the reward at the end of a journey.",
-        "image": ""
+        "image": "the-cricket.png",
+        "ability": "Dexterity",
+        "constellation": "Yelena, The Weaver"
     },
     {
         "name": "The Juggler",
         "description": "This is the chaotic good card of dexterity. It represents destiny, deities, and those who play with the fates of others.",
-        "image": ""
+        "image": "the-juggler.png",
+        "ability": "Dexterity",
+        "constellation": "Bombadil, The Phoenix"
     },
     {
         "name": "The Locksmith",
         "description": "This is the lawful neutral card of dexterity. It represents the keys the subject needs to unlock his fate. The card grants the tools needed to unlock some new place, puzzle, or hoard.",
-        "image": ""
+        "image": "the-locksmith.png",
+        "ability": "Dexterity",
+        "constellation": "Merlin, The Wand"
     },
     {
         "name": "The Peacock",
         "description": "This is the neutral card of dexterity. It represents a great beauty that can only be preserved if petrified and frozen in time for eternity, as by a cockatrice's glare.",
-        "image": ""
+        "image": "the-peacock.png",
+        "ability": "Dexterity",
+        "constellation": "Dungeon, The Tower"
     },
     {
         "name": "The Rabbit Prince",
         "description": "This is the chaotic neutral card of dexterity. It represents the quirky vicissitudes of melee combat. The Rabbit Prince is the personification of the capriciousness of battle, and his broken sword indicates that defeat can come to anyone. The card sometimes represents younger members of royal or noble houses.",
-        "image": ""
+        "image": "the-rabbit-prince.png",
+        "ability": "Dexterity",
+        "constellation": "Delphi, The Ladle"
     },
     {
         "name": "The Avalanche",
         "description": "This is the lawful evil card of dexterity. It represents disaster: an unthinking panic and destruction that overruns all.",
-        "image": ""
+        "image": "the-avalanche.png",
+        "ability": "Dexterity",
+        "constellation": "Canute, The Crown"
     },
     {
         "name": "The Crows",
         "description": "This is the neutral evil card of dexterity. It represents murder, theft, and the violent loss of that which is loved.",
-        "image": ""
+        "image": "the-crows.png",
+        "ability": "Dexterity",
+        "constellation": "Midas, The Coin"
     },
     {
         "name": "The Demon's Lantern",
         "description": "This is the chaotic evil card of dexterity. It represents an impossible situation of traps, mind tricks, and sleight of hand.",
-        "image": ""
+        "image": "the-demons-lantern.png",
+        "ability": "Dexterity",
+        "constellation": "Demon, The Pit"
     },
     {
         "name": "The Trumpet",
         "description": "This is the lawful good card of constitution. It represents an archon who dives aggressively and righteously into danger.",
-        "image": ""
+        "image": "the-trumpet.png",
+        "ability": "Constitution",
+        "constellation": "Rusian, The Weaver"
     },
     {
         "name": "The Survivor",
         "description": "This is the neutral good card of constitution. It represents a creature that has managed to survive a terrible ordeal, when everyone thought him lost.",
-        "image": ""
+        "image": "the-survivor.png",
+        "ability": "Constitution",
+        "constellation": "Yelena, The Weaver"
     },
     {
         "name": "The Desert",
         "description": "This is the chaotic good card of constitution. It represents an environment too difficult for anyone to survive without help. The sphinx may represent a source of salvation from plague.",
-        "image": ""
+        "image": "the-desert.png",
+        "ability": "Constitution",
+        "constellation": "Bombadil, The Phoenix"
     },
     {
         "name": "The Brass Dwarf",
         "description": "This is the lawful neutral card of constitution, showing an azer. It represents a creature invulnerable to a current threat.",
-        "image": ""
+        "image": "the-brass-dwarf.png",
+        "ability": "Constitution",
+        "constellation": "Merlin, The Wand"
     },
     {
         "name": "The Teamster",
         "description": "This is the neutral card of constitution. It represents a external force that drives the subject on.",
-        "image": ""
+        "image": "the-teamster.png",
+        "ability": "Constitution",
+        "constellation": "Dungeon, The Tower"
     },
     {
         "name": "The Mountain Man",
         "description": "This is the chaotic neutral card of constitution. This giant represents an encounter with a physical power outside of the subject's control.",
-        "image": ""
+        "image": "the-mountain-man.png",
+        "ability": "Constitution",
+        "constellation": "Delphi, The Ladle"
     },
     {
         "name": "The Tangled Briar",
         "description": "This is the lawful evil card of constitution. It represents a historical thing or creature that will have some influence on the question.13",
-        "image": ""
+        "image": "the-tangled-briar.png",
+        "ability": "Constitution",
+        "constellation": "Canute, The Crown"
     },
     {
         "name": "The Sickness",
         "description": "This is the neutral evil card of constitution. It represents corruption, famine, plague, pestilence, and disease.",
-        "image": ""
+        "image": "the-sickness.png",
+        "ability": "Constitution",
+        "constellation": "Midas, The Coin"
     },
     {
         "name": "The Waxworks",
         "description": "This is the chaotic evil card of constitution. It represents a place of torture, imprisonment, helplessness, and paralysis.",
-        "image": ""
+        "image": "the-waxworks.png",
+        "ability": "Constitution",
+        "constellation": "Demon, The Pit"
     },
     {
         "name": "The Hidden Truth",
         "description": "This is the lawful good card of intelligence. It represents the discovery of the greater truth within.",
-        "image": ""
+        "image": "the-hidden-truth.png",
+        "ability": "Intelligence",
+        "constellation": "Rusian, The Weaver"
     },
     {
         "name": "The Wanderer",
         "description": "This is the neutral good card of intelligence. It represents a centaur collector who appreciates things others discard as junk.",
-        "image": ""
+        "image": "the-wanderer.png",
+        "ability": "Intelligence",
+        "constellation": "Yelena, The Weaver"
     },
     {
         "name": "The Joke",
         "description": "This is the chaotic good card of intelligence. It represents a monster that can only be defeated through trickery, or the value of humor in circumventing difficult people.",
-        "image": ""
+        "image": "the-joke.png",
+        "ability": "Intelligence",
+        "constellation": "Bombadil, The Phoenix"
     },
     {
         "name": "The Inquisitor",
         "description": "This is the lawful neutral card of intelligence. It represents an immutable object that cannot be deceived or influenced.",
-        "image": ""
+        "image": "the-inquisitor.png",
+        "ability": "Intelligence",
+        "constellation": "Merlin, The Wand"
     },
     {
         "name": "The Trader",
         "description": "This is the neutral card of intelligence. It represents spies, merchants, and those who trade in information.",
-        "image": ""
+        "image": "the-trader.png",
+        "ability": "Intelligence",
+        "constellation": "Dungeon, The Tower"
     },
     {
         "name": "The Vision",
         "description": "This is the chaotic neutral card of intelligence. It represents esoteric and arcane knowledge, or madness.",
-        "image": ""
+        "image": "the-vision.png",
+        "ability": "Intelligence",
+        "constellation": "Delphi, The Ladle"
     },
     {
         "name": "The Rakshasa",
         "description": "This is the lawful evil card of intelligence. The rakshasa represents domination, mental control, and slavery.",
-        "image": ""
+        "image": "the-rakshasa.png",
+        "ability": "Intelligence",
+        "constellation": "Canute, The Crown"
     },
     {
         "name": "The Fool",
         "description": "This is the neutral evil card of intelligence. It represents folly, greed, blackmail, bribery, or hubris.",
-        "image": ""
+        "image": "the-fool.png",
+        "ability": "Intelligence",
+        "constellation": "Midas, The Coin"
     },
     {
         "name": "The Snakebite",
         "description": "This is the chaotic evil card of intelligence. It represents poison, venom, assassination, and discord.",
-        "image": ""
+        "image": "the-snakebite.png",
+        "ability": "Intelligence",
+        "constellation": "Demon, The Pit"
     },
     {
         "name": "The Winged Serpent",
         "description": "This is the lawful good card of wisdom. It represents the coatl, the bridge of understanding between the towers of knowledge and judgement.",
-        "image": ""
+        "image": "the-winged-serpent.png",
+        "ability": "Wisdom",
+        "constellation": "Rusian, The Weaver"
     },
     {
         "name": "The Midwife",
         "description": "This is the neutral good card of wisdom. It represents the enabler or conduit of new creation, information, or arrivals.",
-        "image": ""
+        "image": "the-midwife.png",
+        "ability": "Wisdom",
+        "constellation": "Yelena, The Weaver"
     },
     {
         "name": "The Publican",
         "description": "This is the chaotic good card of wisdom. It represents fellowship and refuge. The cyclops is a seemingly inconsequential figure who nonetheless has relevant insight.",
-        "image": ""
+        "image": "the-publican.png",
+        "ability": "Wisdom",
+        "constellation": "Bombadil, The Phoenix"
     },
     {
         "name": "The Queen Mother",
         "description": "This is the lawful neutral card of wisdom. This formian is the personification of knowledge, who is fond of the powerless, the underclass, and those who will show her obeisance.",
-        "image": ""
+        "image": "the-queen-mother.png",
+        "ability": "Wisdom",
+        "constellation": "Merlin, The Wand"
     },
     {
         "name": "The Owl",
         "description": "This is the neutral card of wisdom. It represents the harsh wisdom of the natural order. The owl holds a needle that can bind life together or pick it apart",
-        "image": ""
+        "image": "the-owl.png",
+        "ability": "Wisdom",
+        "constellation": "Dungeon, The Tower"
     },
     {
         "name": "The Carnival",
         "description": "This is the chaotic neutral card of wisdom. It represents illusions and false dreams.",
-        "image": ""
+        "image": "the-carnival.png",
+        "ability": "Wisdom",
+        "constellation": "Delphi, The Ladle"
     },
     {
         "name": "The Eclipse",
         "description": "This is the lawful evil card of wisdom. It represents loss of faith and purpose, and the subject's doubt about his abilities or prospects.",
-        "image": ""
+        "image": "the-eclipse.png",
+        "ability": "Wisdom",
+        "constellation": "Canute, The Crown"
     },
     {
         "name": "The Silent Hag",
         "description": "This is the neutral evil card of wisdom. It represents the insightful hag, a purveyor of blood pacts, treacherous secrets, and discord.",
-        "image": ""
+        "image": "the-silent-hag.png",
+        "ability": "Wisdom",
+        "constellation": "Midas, The Coin"
     },
     {
         "name": "The Lost",
         "description": "This is the chaotic evil card of wisdom. The bodak represents the permanently insane, lost among lunatics and psychopaths in insane asylums. It is a card of emptiness.",
-        "image": ""
+        "image": "the-lost.png",
+        "ability": "Wisdom",
+        "constellation": "Demon, The Pit"
     },
     {
         "name": "The Empty Throne",
         "description": "This is the lawful good card of charisma. It represents those who are gone, or a ghost of the past that has taught important lessons",
-        "image": ""
+        "image": "the-empty-throne.png",
+        "ability": "Charisma",
+        "constellation": "Rusian, The Weaver"
     },
     {
         "name": "The Theater",
         "description": "This is the neutral good card of charisma. It represents prophecy, with a true prophet acting a part as the puppet of the gods.",
-        "image": ""
+        "image": "the-theater.png",
+        "ability": "Charisma",
+        "constellation": "Yelena, The Weaver"
     },
     {
         "name": "The Unicorn",
         "description": "This is the chaotic good card of charisma. It represents one who generously offers up that which is sought.",
-        "image": ""
+        "image": "the-unicorn.png",
+        "ability": "Charisma",
+        "constellation": "Bombadil, The Phoenix"
     },
     {
         "name": "The Marriage",
         "description": "This is the lawful neutral card of charisma. It represents a union of peoples, ideas, or kingdoms that might be as productive or as ruinous as the bonding of a salamander and a water weird.",
-        "image": ""
+        "image": "the-marriage.png",
+        "ability": "Charisma",
+        "constellation": "Merlin, The Wand"
     },
     {
         "name": "The Twin",
         "description": "This is the neutral card of charisma. The doppelganger represents duality of purpose or identity, or indecision and fence-sitting for the subject or the entire spread.",
-        "image": ""
+        "image": "the-twin.png",
+        "ability": "Charisma",
+        "constellation": "Dungeon, The Tower"
     },
     {
         "name": "The Courtesan",
         "description": "This is the chaotic neutral card of charisma. It represents political intrigue and the superficiality of social niceties.",
-        "image": ""
+        "image": "the-courtesan.png",
+        "ability": "Charisma",
+        "constellation": "Delphi, The Ladle"
     },
     {
         "name": "The Tyrant",
         "description": "This is the lawful evil card of charisma. It represents a ruler who harms those he rules.",
-        "image": ""
+        "image": "the-tyrant.png",
+        "ability": "Charisma",
+        "constellation": "Canute, The Crown"
     },
     {
         "name": "The Betrayal",
         "description": "This is the neutral evil card of charisma. It represents selfishness and envy.",
-        "image": ""
+        "image": "the-betrayal.png",
+        "ability": "Charisma",
+        "constellation": "Midas, The Coin"
     },
     {
         "name": "The Liar",
         "description": "This is the chaotic evil card of charisma. It represents destructive, treacherous love. The lamia signals obsession, star-crossed lovers, or unrequited desire.",
-        "image": ""
+        "image": "the-liar.png",
+        "ability": "Charisma",
+        "constellation": "Demon, The Pit"
     }
   ]
   
