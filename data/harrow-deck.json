@@ -11,7 +11,7 @@
         "description": "This is the neutral good card of strength. It represents quiet, unshakeable strength that withstands any hardship.",
         "image": "the-keep.png",
         "ability": "Strength",
-        "constellation": "Yelena, The Weaver"
+        "constellation": "Yelena, The Keystone"
     },
     {
         "name": "The Big Sky",
@@ -74,7 +74,7 @@
         "description": "This is the neutral good card of dexterity. It represents the grig, quick travel, and the reward at the end of a journey.",
         "image": "the-cricket.png",
         "ability": "Dexterity",
-        "constellation": "Yelena, The Weaver"
+        "constellation": "Yelena, The Keystone"
     },
     {
         "name": "The Juggler",
@@ -137,7 +137,7 @@
         "description": "This is the neutral good card of constitution. It represents a creature that has managed to survive a terrible ordeal, when everyone thought him lost.",
         "image": "the-survivor.png",
         "ability": "Constitution",
-        "constellation": "Yelena, The Weaver"
+        "constellation": "Yelena, The Keystone"
     },
     {
         "name": "The Desert",
@@ -200,7 +200,7 @@
         "description": "This is the neutral good card of intelligence. It represents a centaur collector who appreciates things others discard as junk.",
         "image": "the-wanderer.png",
         "ability": "Intelligence",
-        "constellation": "Yelena, The Weaver"
+        "constellation": "Yelena, The Keystone"
     },
     {
         "name": "The Joke",
@@ -263,7 +263,7 @@
         "description": "This is the neutral good card of wisdom. It represents the enabler or conduit of new creation, information, or arrivals.",
         "image": "the-midwife.png",
         "ability": "Wisdom",
-        "constellation": "Yelena, The Weaver"
+        "constellation": "Yelena, The Keystone"
     },
     {
         "name": "The Publican",
@@ -326,7 +326,7 @@
         "description": "This is the neutral good card of charisma. It represents prophecy, with a true prophet acting a part as the puppet of the gods.",
         "image": "the-theater.png",
         "ability": "Charisma",
-        "constellation": "Yelena, The Weaver"
+        "constellation": "Yelena, The Keystone"
     },
     {
         "name": "The Unicorn",
